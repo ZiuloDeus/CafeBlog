@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeDeusBlog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5e1c0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #6f4e37;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        .nav-buttons button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .intro {
+            padding: 20px;
+            font-size: 18px;
+            color: #4a3b2a;
+        }
+        .cafe-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+        .cafe-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            background-color: #6f4e37;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>CafeDeusBlog</div>
+        <div class="nav-buttons">
+            <button>Inicio</button>
+            <button>Acerca de</button>
+            <button>Contacto</button>
+        </div>
+    </header>
+    <div class="intro">
+        <p>Bienvenido a CafeDeusBlog, tu rincón especial para conocer más sobre el maravilloso mundo del café. Descubre diferentes tipos de café y disfruta de su historia y sabor.</p>
+    </div>
+    <div class="container">
+        <div class="cafe-card">
+            <img src="capuchino.jpg" alt="Capuchino">
+            <h3>Capuchino</h3>
+            <p>Un café cremoso con espuma de leche y un sabor intenso.</p>
+            <button class="btn">Leer más</button>
+        </div>
+        <div class="cafe-card">
+            <img src="cafe-latte1-recipe.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Un café suave con una gran cantidad de leche vaporizada.</p>
+            <button class="btn">Leer más</button>
+        </div>
+        <div class="cafe-card">
+            <img src="Cafe-negro.jpg" alt="Café Negro">
+            <h3>Café Negro</h3>
+            <p>Un café puro y fuerte, ideal para los amantes del sabor intenso.</p>
+            <button class="btn">Leer más</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 CafeDeusBlog - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
